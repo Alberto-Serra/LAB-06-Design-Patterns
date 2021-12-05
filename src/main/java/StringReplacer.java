@@ -11,4 +11,9 @@ public class StringReplacer implements StringTransformer {
     public void execute(StringDrink drink) {
         drink.setText(drink.getText().replace(original, toReplace));
     }
+
+    @Override
+    public void undo(StringDrink drink) {
+        drink.setText(drink.getText().replace(toReplace, original));
+    }
 }
