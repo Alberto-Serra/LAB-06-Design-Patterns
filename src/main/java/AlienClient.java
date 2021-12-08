@@ -1,8 +1,8 @@
-public class HumanClient implements Cliente {
-    OrderingStrategy strategy;
+public abstract class AlienClient implements Cliente{
+    private OrderingStrategy strategy;
 
-    public HumanClient(OrderingStrategy strategy) {
-        this.strategy = strategy;
+    public AlienClient(OrderingStrategy strategy){
+        this.strategy = createOrderingStrategy();
     }
 
     @Override
@@ -12,11 +12,13 @@ public class HumanClient implements Cliente {
 
     @Override
     public void happyHourEnded(Bar bar) {
-        strategy.happyHourStarted((StringBar) bar);
+        strategy.happyHourEnded((StringBar) bar);
     }
 
     @Override
     public void wants(StringDrink drink, StringRecipe recipe, StringBar bar) {
         strategy.wants(drink,recipe,bar);
     }
+
+    protected abstract OrderingStrategy createOrderingStrategy();
 }

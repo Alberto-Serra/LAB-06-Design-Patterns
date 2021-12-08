@@ -1,7 +1,7 @@
 public class ImpatientStrategy implements  OrderingStrategy{
     @Override
     public void wants(StringDrink drink, StringRecipe recipe, StringBar bar) {
-
+    bar.order(drink,recipe);
 
     }
 

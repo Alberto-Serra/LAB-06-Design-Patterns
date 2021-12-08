@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StringInverterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-08T01:21:59" hostname="ASUS-TUF-GAMING-FX504GD-FX80GD" time="0.0">
+  <properties/>
+  <testcase name="StringInverter()" classname="StringInverterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

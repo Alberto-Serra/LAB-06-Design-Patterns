@@ -1,18 +1,24 @@
-StringDrinkTest.java
- StringDrinkTest
-StringReplacerTest.java
- StringReplacerTest
 StringCaseChangerTest.java
  StringCaseChangerTest
 StringRecipeTest.java
  StringRecipeTest
-StringInverterTest.java
- StringInverterTest
 StringTransformGroupTest.java
  StringTransformGroupTest
-StringTransformUndoTest.java
- StringTransformUndoTest
+StringInverterTest.java
+ StringInverterTest
 StringBarTest.java
  StringBarTest
+StringDrinkTest.java
+ StringDrinkTest
+StringReplacerTest.java
+ StringReplacerTest
+StringTransformUndoTest.java
+ StringTransformUndoTest
+ImpatientStrategyTest.java
+ ImpatientStrategyTest
 BarTest.java
  BarTest
+SmartStrategyTest.java
+ SmartStrategyTest
+AlienClientTest.java
+ AlienClientTest

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AlienClientTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-08T01:21:59" hostname="ASUS-TUF-GAMING-FX504GD-FX80GD" time="0.004">
+  <properties/>
+  <testcase name="ferengiAlreadyClosed()" classname="AlienClientTest" time="0.001"/>
+  <testcase name="ferengiAlreadyOpened()" classname="AlienClientTest" time="0.0"/>
+  <testcase name="romulan()" classname="AlienClientTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

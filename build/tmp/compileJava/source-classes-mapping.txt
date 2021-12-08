@@ -16,9 +16,21 @@ Bar.java
  Bar
 Cliente.java
  Cliente
-HumanClient.java
- HumanClient
-StringRecipe.java
- StringRecipe
 StringBar.java
  StringBar
+StringRecipe.java
+ StringRecipe
+OrderingStrategy.java
+ OrderingStrategy
+ImpatientStrategy.java
+ ImpatientStrategy
+SmartStrategy.java
+ SmartStrategy
+HumanClient.java
+ HumanClient
+FerengiClient.java
+ FerengiClient
+RomulanClient.java
+ RomulanClient
+AlienClient.java
+ AlienClient
